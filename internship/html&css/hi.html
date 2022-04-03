@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>open</title>
+    <style>
+        button{
+            background: azure;
+            height: 40px;
+            width: 80px;
+        }
+   .content{
+       display:none;
+   }
+   .hover:hover>.content{
+       display: block;
+       transition: 2s ease-in-out;
+        
+   } .hover:active>.content{
+       display: block;
+       transition: 2s ease-in-out;
+        
+   }
+    </style>
+</head>
+<body>
+    
+    <div class="hover">
+        <button>click me</button>
+        <div class="content">
+            <ul>
+                <li>link1</li>
+                <li>link2</li>
+                <li>link2</li>
+            </ul>
+        </div>        
+    </div>
+</body>
+</html>
